@@ -1,0 +1,3 @@
+javac GreetingService.java
+jar cvfm gs.jar MANIFEST.MF GreetingService.class
+java -jar gs.jar
